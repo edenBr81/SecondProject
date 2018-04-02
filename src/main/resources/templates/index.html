@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="www.thymeleaf.org">
+<head>
+    <meta charset=" UTF-8"/>
+    <title>Hello</title>
+</head>
+<body>
+<h1 th:inline="text">[[${myperson.firstName}]]  [[${myperson.lastName}]]</h1>
+
+<h3 th:inline="text">[[${myperson.phoneNumber}]]</h3>
+<h3 th:inline="text">[[${myperson.email}]]</h3>
+
+</body>
+</html>
